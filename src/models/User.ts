@@ -29,6 +29,9 @@ export default class User {
   @Column('date')
   birthdate: Date;
 
+  @Column()
+  avatar: string;
+
   @CreateDateColumn()
   created_at: Date;
 

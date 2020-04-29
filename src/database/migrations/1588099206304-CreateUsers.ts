@@ -23,7 +23,7 @@ export default class CreateUsers1588099206304 implements MigrationInterface {
             isUnique: true,
           },
           {
-            name: 'passoword',
+            name: 'password',
             type: 'varchar',
           },
           {
@@ -36,7 +36,7 @@ export default class CreateUsers1588099206304 implements MigrationInterface {
           },
           {
             name: 'birthdate',
-            type: 'datetime',
+            type: 'date',
           },
           {
             name: 'created_at',
